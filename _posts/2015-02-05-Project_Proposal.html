@@ -19,6 +19,7 @@ Principal Component Analysis is a famous method to reduce the dimensions of data
 #### LDA
 
 Linear Discriminant Analysis is a dimensionality reduction method for supervised machine learning. This method might provide more accurate classification results as our current problem is supervised machine learning. This method will map the data into new dimensions where the same family of clusters will be as close as possible to each other while, at the same time, it will distinguish between different family clusters. We are expecting to acquire more accurate results together with high computational speed in terms of training the data.
+
 #### Kernel Methods
 
 We are going to use Kernel trick to transfer data-set into a higher dimensions.  For example Radial basis function kernel or Polynomial kernelData may be linearly separable in the higher dimensions, and we could classify our data as accurate as possible. This approach might provide us more accurate classification results. 
@@ -32,7 +33,7 @@ We are going to use Kernel trick to transfer data-set into a higher dimensions. 
 
 
 ### DATA SET
-(describe the dataset you are going to use, how you will use the dataset? raw format, or some standard format?)
+
 We are going to employ CMS data into our predictive modeling. We will join all the features in Benificiary-Summary, In-patient claims_Sample,Out-patient claims_Sample, and Prescription-Drug_Events_Sample in one file including all the features. Afterwards, the predetice modeling and proposed approached will be applied on samples having all the features.
 
 ### ENVIRONMENT
@@ -41,6 +42,7 @@ We plan on using the AWS platform to utilize Hadoop as well as Pig and/or Hive.
 See Help Needed below.
 
 ### EVALUATION CRITERIA
+
 In the chosen model to predict the classification of our data, we can compare the result of the raw data which are not being transformed in any new dimensions to the results of data transformed into the new dimensions based on the PCA, LDA, or Kernel approach. 
 
 ### HELP NEEDED (OPTIONAL)
